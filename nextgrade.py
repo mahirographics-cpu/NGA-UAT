@@ -65,6 +65,8 @@ create_tables()
 
 
 
+import sqlite3
+conn = sqlite3.connect('/data/info.db')
 
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
